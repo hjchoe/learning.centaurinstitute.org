@@ -1,4 +1,4 @@
-import http from "@canmingir/link/platform/http";
+import http from "../preview/catalogHttp";
 import { publish } from "@nucleoidai/react-event";
 import useApi from "./useApi";
 

@@ -4,13 +4,11 @@ import { DashboardLayout } from "@canmingir/link/layouts";
 import Home from "./src/pages/home";
 import Index from "./src/pages/Index";
 import React from "react";
-import RequestCertificate from "./src/pages/requestCertificate";
 import SS2022 from "./src/pages/ss2022";
 import SS2023 from "./src/pages/ss2023";
 import SS2024 from "./src/pages/ss2024";
 import SS2025 from "./src/pages/ss2025";
 import SS2026 from "./src/pages/ss2026";
-import VideoDetail from "./src/components/VideoDetail/VideoDetail";
 import WW2022 from "./src/pages/ww2022";
 import WW2023 from "./src/pages/ww2023";
 import WW2024 from "./src/pages/ww2024";
@@ -64,15 +62,11 @@ const routes = [
           },
           {
             path: "/learning/video/:videoId",
-            element: <VideoDetail />,
+            element: <p>Video playback and tag suggestions are disabled in this preview.</p>,
           },
           {
             path: "/",
             element: <Home />,
-          },
-          {
-            path: "/request-certificate",
-            element: <RequestCertificate />,
           },
         ],
       },

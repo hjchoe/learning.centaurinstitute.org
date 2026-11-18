@@ -66,12 +66,6 @@ const menuConfig = {
           icon: "tabler:tags",
           path: "/learning/tags",
         },
-        {
-          title: "Request Certificate",
-          compactTitle: "Certificate",
-          icon: "tabler:certificate",
-          path: "/request-certificate",
-        },
       ],
     },
   ],
